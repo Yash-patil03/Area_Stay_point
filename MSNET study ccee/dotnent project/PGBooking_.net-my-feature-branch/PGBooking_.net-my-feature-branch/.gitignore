@@ -1,0 +1,46 @@
+
+# ===============================
+# Visual Studio / .NET
+# ===============================
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===============================
+# ASP.NET Core
+# ===============================
+appsettings.Development.json
+
+# ===============================
+# Node / React
+# ===============================
+node_modules/
+.env
+build/
+dist/
+
+# ===============================
+# Logs & temp
+# ===============================
+*.log
+*.tmp
+
+# ===============================
+# OS
+# ===============================
+Thumbs.db
+.DS_Store
+
+# Environment files
+.env
+pgfinder-frontend/.env
+
+# ASP.NET secrets
+appsettings.json
+appsettings.Development.json
+
+modified: ../.gitignore
