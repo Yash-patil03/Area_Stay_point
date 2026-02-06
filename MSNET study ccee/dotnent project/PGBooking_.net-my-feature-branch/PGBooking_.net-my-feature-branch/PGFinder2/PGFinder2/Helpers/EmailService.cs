@@ -8,11 +8,11 @@ public class EmailService
     {
         var client = new SmtpClient("smtp.gmail.com", 587)
         {
-            Credentials = new NetworkCredential("yourmail@gmail.com", "app-password"),
+            Credentials = new NetworkCredential("yp121313@gmail.com", "bgap bguc wfyc pmod"),
             EnableSsl = true
         };
 
-        client.Send("yourmail@gmail.com", to, subject, body);
+        client.Send("yp121313@gmail.com", to, subject, body);
     }
 }
 
